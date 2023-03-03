@@ -25,21 +25,8 @@ export default function HeroSection() {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
-            Hi, I&#39;m Nico!
-          </h1>
-          <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a{" "}
-            <span className="font-semibold text-teal-600">
-              Diffrent Colors{" "}
-            </span>
-            other text
-          </p>
           <p>
-            Hi, my name is Nico and I am a{" "}
-            <span className="font-bold">{"bold"}</span> and{" "}
-            <span className="italic">{"Italic"}</span>. However, I am single 😥,
-            or am I 😏.
+            My name is Nico and I am 15 years old, I have been programming since I was 12. I love anything to do with computers and I love learning more about them.
           </p>
           <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
             {skills.map((item, idx) => {
